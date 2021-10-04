@@ -1,4 +1,5 @@
 import 'package:first_app/screen/home_screen.dart';
+import 'package:first_app/screen/more_screen.dart';
 import 'package:first_app/widget/bottom_bar.dart';
 import 'package:flutter/material.dart';
 
@@ -29,7 +30,7 @@ class _MyAppState extends State<MyApp> {
               HomeScreen(),
               Container(child: Center(child: Text('search'),),),
               Container(child: Center(child: Text('save'),),),
-              Container(child: Center(child: Text('more'),),)
+              MoreScreen()
             ],
           ),
           bottomNavigationBar: Bottom(),
